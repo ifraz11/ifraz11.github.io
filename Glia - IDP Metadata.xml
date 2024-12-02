@@ -1,0 +1,34 @@
+<md:EntityDescriptor xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:xenc11="http://www.w3.org/2009/xmlenc11#" entityID="https://sso-226a6c5e.sso.duosecurity.com/saml2/sp/DI8BSAQINA6WTD77MDLN/metadata">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDDTCCAfWgAwIBAgIUApKRL09zVbQBfuu3/Awli7QQ3GQwDQYJKoZIhvcNAQEL
+BQAwNjEVMBMGA1UECgwMRHVvIFNlY3VyaXR5MR0wGwYDVQQDDBRESThCU0FRSU5B
+NldURDc3TURMTjAeFw0yNDExMjYyMTEzMzhaFw0zODAxMTkwMzE0MDdaMDYxFTAT
+BgNVBAoMDER1byBTZWN1cml0eTEdMBsGA1UEAwwUREk4QlNBUUlOQTZXVEQ3N01E
+TE4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYHqLB0FjKhNf3ltov
+4bo81u6lMlbqcNNL8z+xQ2qBJadLeEGF6vV9NCZlFzFbR1kLbb9SuBKAsIO0DptA
+JfgPaggnlVT8r3KGiVxpxefXpdyQLk40BPwBp20qsQVxX6z7RZLs9kN/MocvhLXn
+4lr39YyCNvQLNsRtKT/99/ylSLH5zAMbERgtxuORSjZAxDZCo3BSo6X+b41CxZzs
+TGU96ipJCX0qlgvIL5dMPugmB4at42gyBHjdDAEmZDT/yGMJ64838FqwoxsXDj9i
+F168guo9nnKeqqj0mkRDh7DzB8jYBwBGBfpyuJ7YLm4VZN4JX5RgiIEU3xN/u48v
+2Z1fAgMBAAGjEzARMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+AFl28M3mrmHaiaZXqyPhtmnhPFORcUy/bqAryzWpvXQNZqpC8PRWVW262lkpJmYB
+CaS86WZmmT4u8hvhPfmGSIMFEIaO2gibhNP/8Bkfekgq7RAAFfmCJmWWYReuawkj
+f9R1TgqX/1+mXWGf+zfDOUaYfkr8J/JTz4KQ+3zWJAbeh9B3waqWfqlfKj1PEZH5
+HGS1io8X7ezUl1vodNFdiZBY7ozFP4XTUp8t5hU9+huakRMD9DqiCU5ZtYjyXpoD
+xA9z3VWvX9QzsuCvfZXKkoSrLo1P25Qlpep41G8XOv56lAax5M24YD0IFNxRzKf/
+/QmD6vj6ov//tDjDCAsnKac=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso-226a6c5e.sso.duosecurity.com/saml2/sp/DI8BSAQINA6WTD77MDLN/sso"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso-226a6c5e.sso.duosecurity.com/saml2/sp/DI8BSAQINA6WTD77MDLN/sso"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
